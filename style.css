@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.nav-1 {
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-1 ul {
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    gap: 5px;
+
+}
+
+.nav-1 ul li {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* border: 2px solid black; */
+    height: 100%;
+    list-style: none;
+
+
+
+
+}
+
+.nav-1 ul li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 16px;
+    /* height: 100%; */
+
+
+}
+
+.right-side li i {
+    color: #9763f6;
+}
+
+.nav-1 ul li input {
+    border-radius: 15px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    font-style: italic;
+    font-size: 14px;
+
+}
+
+.nav-1 ul li button {
+    background-color: #04aa6d;
+    color: white;
+    border: 2px solid #04aa6d;
+    padding: 8px 4px;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.nav-1 ul li button:hover {
+    color: rgb(94, 94, 94);
+    cursor: pointer;
+}
+
+
+.nav-1 ul li button i {
+    color: white;
+}
+
+.nav-1 ul li a img {
+    width: 30px;
+    height: auto;
+    object-fit: contain;
+    display: block;
+}
+
+#left-nav-link:hover {
+    background-color: green;
+    color: white;
+}
+
+#right-nav-link:hover {
+    background-color: #d0d4d6;
+}
+
+.nav-2 {
+    width: 100%;
+    background-color: black;
+}
+
+.nav-2 ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-2 ul li {
+    list-style: none;
+}
+
+.nav-2 ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px;
+
+}
+
+.nav-2 ul li a:hover {
+    background-color: #04aa6d;
+}
+
+.sidebar {
+
+    max-height: 100vh;
+    width: 14%;
+    background-color: #d0d4d6;
+    overflow-y: scroll;
+}
+
+.sidebar h3 {
+    font-weight: 400;
+    text-align: center;
+    padding: 12px 5px 8px 5px;
+    font-size: 22px;
+}
+
+.sidebar ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    display: inline-block;
+    width: 100%;
+}
+
+.sidebar ul li {
+
+    list-style: none;
+}
+
+.sidebar ul li a {
+    /* text-align: center; */
+
+    text-decoration: none;
+    color: black;
+    display: block;
+    width: 100%;
+    padding: 2px 15px;
+    border-radius: 4px;
+}
+
+.sidebar ul li a:hover {
+    background-color: #04aa6d;
+    color: white;
+}
