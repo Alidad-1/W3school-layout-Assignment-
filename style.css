@@ -127,7 +127,7 @@
     max-height: 100vh;
     width: 14%;
     background-color: #d0d4d6;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 .sidebar h3 {
@@ -165,4 +165,5 @@
 .sidebar ul li a:hover {
     background-color: #04aa6d;
     color: white;
+
 }
